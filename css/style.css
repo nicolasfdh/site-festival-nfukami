@@ -1,0 +1,14 @@
+/* Style des filtres de la grille horraire */
+#jours {
+  padding: 1rem;
+}
+#jours ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#jours ul li.active,
+#jours ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
