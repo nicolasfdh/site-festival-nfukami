@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Bike test Gryon - Marques</title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/vendor/timetablejs.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/vendor/timetable.js" async defer></script>
+	<script src="js/app.js" async defer></script>
+</head>
+
+<body>
+
+	<header>
+
+
+		<!-- navbar -->
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" class="active">
+				<img src="images/logo/logo.png" alt=""></a>
+			<a href="index.html" class="textlink">Présentation</a>
+			<a href="programme.html" class="textlink">Programme</a>
+			<a href="marques.html" class="textlink">Marques</a>
+			<a href="reservation.html" class="textlink">Réservation</a>
+			<a href="#contact" class="textlink">Contact</a>
+			<a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;
+			</a>
+		</div>
+
+		<!-- coming soon -->
+		<div class="titre">
+
+			<div class="titrage">
+				<h1>Marques</h1>
+
+			</div>
+		</div>
+	</header>
+
+
+	<!-- systeme de filtre pour les marques -->
+	<div class="filter">
+
+		<div id="myBtnContainer">
+			<button class="btn active" onclick="filterSelection('all')"> Tout</button>
+			<button class="btn" onclick="filterSelection('vtt')">vtt</button>
+			<button class="btn" onclick="filterSelection('route')">route</button>
+			<button class="btn" onclick="filterSelection('gravel')"> gravel</button>
+			<button class="btn" onclick="filterSelection('junior')"> junior</button>
+		</div>
+
+		<!-- Portfolio Gallery Grid -->
+		<div class="row">
+			<div class="column vtt">
+				<div class="content">
+					<img src="/images/marques/norco.jpg" alt="Mountains" style="width:100%">
+				</div>
+			</div>
+			<div class="column vtt">
+				<div class="content">
+					<img src="/images/marques/scott.jpg" alt="Lights" style="width:100%">
+				</div>
+			</div>
+			<div class="column vtt route">
+				<div class="content">
+					<img src="/images/marques/yeti.png" alt="Nature" style="width:100%">
+				</div>
+			</div>
+			<div class="column vtt gravel junior">
+				<div class="content">
+					<img src="/images/marques/trek.png" alt="Nature" style="width:100%">
+				</div>
+			</div>
+			<div class="column vtt junior">
+				<div class="content">
+					<img src="/images/marques/transition.png" alt="Nature" style="width:100%">
+				</div>
+			</div>
+			<div class="column vtt route">
+				<div class="content">
+					<img src="/images/marques/spe.png" alt="Nature" style="width:100%">
+				</div>
+			</div>
+			<div class="column route junior">
+				<div class="content">
+					<img src="/images/marques/santa.png" alt="Nature" style="width:100%">
+				</div>
+			</div>
+			<div class="column vtt gravel">
+				<div class="content">
+					<img src="/images/marques/rocky.png" alt="Nature" style="width:100%">
+				</div>
+			</div>
+			<div class="column route junior">
+				<div class="content">
+					<img src="/images/marques/mondrak.jpg" alt="Nature" style="width:100%">
+				</div>
+			</div>
+			<div class="column vtt junior">
+				<div class="content">
+					<img src="/images/marques/bold.jpg" alt="Nature" style="width:100%">
+				</div>
+			</div>
+			<div class="column vtt gravel route">
+				<div class="content">
+					<img src="/images/marques/orbeaa.png" alt="Nature" style="width:100%">
+				</div>
+			</div>
+			<div class="column route">
+				<div class="content">
+					<img src="/images/marques/commencal.png" alt="Nature" style="width:100%">
+				</div>
+			</div>
+
+			<!-- END GRID -->
+		</div>
+	</div>
+
+
+	<!-- footer -->
+	<div class="footer" id="contact">
+		<h5>contact</h5>
+		<a href="mailto:info@bikegryon.ch">info@bikegryon.ch</a>
+		<a href="https://www.google.com/maps/place/Parking+Barboleuse/@46.2827035,7.0710595,18.75z/data=!4m13!1m7!3m6!1s0x478ec008be63c741:0xa677e6d28bd521a!2s1882+Gryon!3b1!8m2!3d46.2778331!4d7.0675893!3m4!1s0x478ebfc935efd5fb:0xda816a51dc2dac14!8m2!3d46.2830978!4d7.0711841"
+			target="_blank">Chemin de la Bergerie 5, CH-1882 GRYON</a>
+	</div>
+	<!-- grille horraire-->
+	<!-- <div class="horraire">
+
+
+			<div id="jours">
+				<ul> -->
+	<!-- La classe définissant le jour doit toujours être en deuxième position -->
+	<!-- <li class="filter vendredi active">Vendredi</li>
+					<li class="filter samedi">Samedi</li>
+					<li class="filter dimanche">Dimanche</li>
+				</ul>
+			</div>
+			<div id="timetable" class="timetable"></div>
+		</div> -->
+
+	<!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+	<script>
+		// Set the date we're counting down to
+		var countDownDate = new Date("Oct 1, 2021 12:00:00").getTime();
+
+		// Update the count down every 1 second
+		var countdownfunction = setInterval(function() {
+
+			// Get todays date and time
+			var now = new Date().getTime();
+
+			// Find the distance between now an the count down date
+			var distance = countDownDate - now;
+
+			// Time calculations for days, hours, minutes and seconds
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			// Output the result in an element with id="demo"
+			document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+				minutes + "m " + seconds + "s ";
+
+			// If the count down is over, write some text
+			if (distance < 0) {
+				clearInterval(countdownfunction);
+				document.getElementById("demo").innerHTML = "EXPIRED";
+			}
+		}, 1000);
+	</script>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+	<script>
+		filterSelection("all")
+
+		function filterSelection(c) {
+			var x, i;
+			x = document.getElementsByClassName("column");
+			if (c == "all") c = "";
+			for (i = 0; i < x.length; i++) {
+				w3RemoveClass(x[i], "show");
+				if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+			}
+		}
+
+		function w3AddClass(element, name) {
+			var i, arr1, arr2;
+			arr1 = element.className.split(" ");
+			arr2 = name.split(" ");
+			for (i = 0; i < arr2.length; i++) {
+				if (arr1.indexOf(arr2[i]) == -1) {
+					element.className += " " + arr2[i];
+				}
+			}
+		}
+
+		function w3RemoveClass(element, name) {
+			var i, arr1, arr2;
+			arr1 = element.className.split(" ");
+			arr2 = name.split(" ");
+			for (i = 0; i < arr2.length; i++) {
+				while (arr1.indexOf(arr2[i]) > -1) {
+					arr1.splice(arr1.indexOf(arr2[i]), 1);
+				}
+			}
+			element.className = arr1.join(" ");
+		}
+
+
+		// Add active class to the current button (highlight it)
+		var btnContainer = document.getElementById("myBtnContainer");
+		var btns = btnContainer.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+			btns[i].addEventListener("click", function() {
+				var current = document.getElementsByClassName("active");
+				current[0].className = current[0].className.replace(" active", "");
+				this.className += " active";
+			});
+		}
+	</script>
+
+
+</body>
+
+</html>
