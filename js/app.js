@@ -138,3 +138,18 @@ function drawTimetable(day) {
         renderer.draw(".timetable");
     }
 }
+
+let limit = document.getElementsByClassName("bgimg")[0];
+let target = document.getElementsByClassName("fixed-header")[0]
+//console.log(limit.scrollTop);
+
+document.addEventListener('scroll', (e) => {
+    let offsetTop = Math.abs(limit.getBoundingClientRect().top);
+    console.log(offsetTop);
+    if (offsetTop > 130) {
+        target.classList.add('active');
+    } else {
+        target.classList.remove('active');
+
+    }
+})
